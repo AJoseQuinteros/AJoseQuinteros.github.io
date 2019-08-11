@@ -7,6 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <title>Document</title>
 </head>
 
@@ -31,27 +32,27 @@
           <a class="navbar-brand" href="#">CV Quinteros Jose</a>
           <ul class="navbar-nav  w-100   d-flex justify-content-end">
             <li class="nav-item active">
-              <a class="nav-link" href="#">ABOUT <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#about">ABOUT <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">SKILLS</a>
+              <a class="nav-link" href="#skills">SKILLS</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link " href="#">PORTFOLIO</a>
+              <a class="nav-link " href="#port">PORTFOLIO</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link " href="#">EXPERIENCE</a>
+              <a class="nav-link " href="#edu">EDUCATION</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link " href="#">CONTACT</a>
+              <a class="nav-link " href="#cont">CONTACT</a>
             </li>
           </ul>
 
         </div>
       </nav>
-      <img src="img/pexels-photo-414612.jpeg" height="450" class="card-img" alt="...">
+      <img src="img/pexels-photo-414612.jpeg" height="450" class="card-img" position="absolute" alt="...">
       <div class="card-img-overlay  mt-5">
-        <div class="container text-center my-5">
+        <div class="container text-center my-5" >
           <img src="img/006hbb_ons_crd_03.jpg" width="150" height="150" style="border-radius:75px ">
           <h2>Quinteros, Angel Jose</h2>
           <h3>Programming and Administration,Student </h3>
@@ -63,7 +64,7 @@
     </div>
   </header>
   <section>
-    <div class="container" >
+    <div class="container mt-5" id="about" >
     <div class="row  text-light bg-dark ">
       <div class="col-lg-6 col-sm-12">
         <h3>About</h3>
@@ -73,13 +74,13 @@
        
         <h3> <strong>Basic Information</strong> </h3>
         <div class="row">
-        <div class="col-lg-4 col-sm-12">
+        <div class="col-lg-4 col-sm-4">
           <p>AGE:</p>
           <p>EMAIL:</p>
           <p>PHONE:</p>
           <p>ADDRESS:</p>
         </div>
-        <div class="col-lg-6 col-sm-12">
+        <div class="col-lg-6 col-sm-6">
           <p>35</p>
           <p>angeljosequinteros@outlook.com</p>
           <p>3814412479</p>
@@ -88,7 +89,7 @@
        </div>
       </div>
     </div>
-    <h2 class="text-center my-5 bg-gradient-primary " enable-gradients="true">Professional SKills</h2>
+    <h2 class="text-center my-5 bg-gradient-primary " enable-gradients="true" id="skills">Professional SKills</h2>
   
     <div class="row shadow p-2">
       <div class="col-lg-6">
@@ -106,7 +107,7 @@
       </div>
   
     </div>
-    <div class="container">
+    <div class="container" id="port">
       <h2 class="text-center mt-5">Portfolio</h2>
       <div class="mt-3">
           <div class="card-columns">
@@ -118,13 +119,13 @@
   
               </div>
               
-              <div class="card">
+              <div class="card  view overlay zoom">
                 <img src="img/paginamusica.jpg" class="card-img-top zoom" alt="imgenmusica">
          
               </div>
              
              
-              <div class="card">
+              <div class="card  view overlay zoom">
                 <img src="img/paginainmob.jpg" class="card-img-top zoom" alt="imageninmob">
               </div>
          
@@ -132,7 +133,7 @@
             </div>
       </div>
     </div>
-    <h2 class="text-center my-5">Education </h2>
+    <h2 class="text-center my-5" id="edu">Education </h2>
     <div class=" shadow card mb-3" >
         <div class="row no-gutters ">
           <div class="col-md-4 text-center text-light bg-dark">
@@ -169,6 +170,18 @@
     
     </div>
   </section>
+  <footer>
+    <div class="container text-center" id="cont" > 
+      <a href="https://www.facebook.com/jose.quinteros.73" >
+    <i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
+    </a>
+    <a href="www.linkedin.com/in/angel-jose-quinteros-68aa1620"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
+
+    </a>
+
+    <h5 class="text-center">Quinteros Angel Jose</h5>
+    </div>
+  </footer>
 </body>
 
 </html>
